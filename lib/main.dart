@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:learn_programming_flutter_firestore/domain/workout.dart';
-import 'package:learn_programming_flutter_firestore/screens/auth.dart';
-import 'package:learn_programming_flutter_firestore/screens/home.dart';
+
+import 'package:learn_programming_flutter_firestore/screens/landing.dart';
 
 void main() => runApp(MaxFitApp());
 
@@ -18,7 +17,7 @@ class MaxFitApp extends StatelessWidget {
         primaryColor: Color.fromRGBO(50, 65, 85, 1),
         textTheme: TextTheme(headline6: TextStyle(color: Colors.white)),
       ),
-      home: AutorizationPage(),
+      home: LandingPage(),
     );
   }
 }
